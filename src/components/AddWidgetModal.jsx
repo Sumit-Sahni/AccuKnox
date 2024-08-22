@@ -42,7 +42,7 @@ const AddWidgetModal = ({ isOpen, onClose }) => {
 
     return (
         <div className="fixed inset-0 bg-slate-500 bg-opacity-70 flex  justify-end">
-            <div className="bg-white p-4 rounded shadow-lg w-full h-80 md:h-full  md:w-2/5 rounded-l-xl ">
+            <div className="bg-white p-4 rounded shadow-lg w-full h-96 md:h-full  md:w-2/5 rounded-l-xl ">
                  <div className=' bg-slate-600 px-2 py-1 my-4 flex justify-between  rounded'>
                    <h2 className="text-lg text-white ">Add Widget</h2>
                    <h2 onClick={onClose} className='text-red-500 text-xl px-2 cursor-pointer'>X</h2>
