@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import widgetReducer from './WidgetSlice';
+import widgetReducer from   './WidgetSlice';
 
 const store = configureStore({
     reducer: {

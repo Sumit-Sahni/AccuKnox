@@ -1,9 +1,12 @@
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div>
-          <h1>Hello Js</h1>
-    </div>
+      <section>
+          <div>
+              <Dashboard/>
+          </div>
+      </section>
   );
 }
 
