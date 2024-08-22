@@ -15,6 +15,12 @@ const initialState = {
                 { id: 1, name: 'Top 5 Namespace Specif Alert', text: 'No Graph available' },
             ],
         },
+        {
+            name: 'Registry Scan',
+            widgets: [
+                { id: 1, name: 'Image risl assesment', text: 'No Graph available' },
+            ],
+        },
     ],
 };
 
@@ -23,7 +29,7 @@ const widgetSlice = createSlice({
     initialState,
     reducers: {
         addWidget: (state, action) => {
-            const { categoryName, widget } = action.payload;
+            const { categoryName, widget } = action.payload;  
             const category = state.categories.find(cat => cat.name === categoryName);
             if (category) {
                 category.widgets.push(widget);

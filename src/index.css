@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.hide-scrollbar {
-    overflow-y: auto;
-    scrollbar-width: none; /* For Firefox */
-}
-
-.hide-scrollbar::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
-}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Default font-weight */
+    font-style: normal;
+  }
+  
+  /* If you want to use different weights with specific classes */
+  .montserrat-light {
+    font-weight: 300;
+  }
+  
+  .montserrat-medium {
+    font-weight: 500;
+  }
+  
+  .montserrat-bold {
+    font-weight: 700;
+  }
