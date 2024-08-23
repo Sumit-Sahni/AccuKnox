@@ -26,7 +26,7 @@ Description:
 
 1. Clone the repository in you local folder:
 
-   git clone https://github.com/yourusername/projectname.git](https://github.com/Sumit-Sahni/AccuKnox
+   git clone https://github.com/Sumit-Sahni/AccuKnox
     
 2. Install dependencies:
 
